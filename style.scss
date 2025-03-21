@@ -103,3 +103,78 @@ body {
 .box:nth-child(3){
     border-right: none;
 }
+
+@media (max-width: 768px) {
+    body {
+      font-size: 14px; /* Matnni kichikroq qilish */
+    }
+    
+    .container {
+      width: 100%; /* Kenglikni ekranga moslash */
+      padding: 10px;
+    }
+  
+    .header {
+      text-align: center; /* Sarlavhani markazga olish */
+    }
+  
+    img {
+      max-width: 100%; /* Rasmlarni ekranga sig‘dirish */
+      height: auto;
+    }
+  }
+  @media (max-width: 768px) {
+    .all {
+        flex-direction: column; /* Elementlarni ustma-ust qilish */
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+
+    .text {
+        width: 90%; /* Matn blokini to‘liqroq qilish */
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .text .tt {
+        font-size: 22px; /* Sarlavhani biroz kichraytirish */
+        width: 100%;
+    }
+
+    .bosh {
+        width: 100%; /* Rasm blokini ekranga moslash */
+        height: auto;
+        background-color: transparent; /* Orqa fonni olib tashlash */
+    }
+
+    .bosh img {
+        position: static; /* Pozitsiyani tiklash */
+        width: 100%; /* Rasm ekran bo‘ylab joylashadi */
+        border-radius: 12px; /* Burchaklarni moslash */
+        box-shadow: none;
+    }
+
+    .footer {
+        width: 90%; /* Footer kengligini ekranga moslash */
+        left: 0;
+        top: 0;
+        height: auto;
+        flex-direction: column; /* Bo‘limlarni ustma-ust qilish */
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .footer .box {
+        width: 100%;
+        border-right: none;
+        text-align: center;
+    }
+
+    .footer .box i {
+        position: static;
+        margin-bottom: 10px;
+    }
+}
+
+  
