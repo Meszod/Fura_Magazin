@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.all {
+  width: 80%;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+}
+.all .text {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  height: 75vh;
+}
+.all .text .tt {
+  font-size: 25px;
+  width: 80%;
+}
+.all .text .tt p {
+  font-size: 18px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  color: gray;
+}
+.all .text .tt span {
+  font-size: 15px;
+  padding: 2px;
+  border-bottom: 5px solid #ffb700;
+}
+.all .bosh {
+  width: 40%;
+  height: 75vh;
+  background-color: #14746f;
+}
+.all .bosh img {
+  position: relative;
+  top: 15%;
+  left: -30%;
+  width: 120%;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  box-shadow: 0px 5px 10px black;
+}
+
+.footer {
+  width: 70%;
+  height: 30vh;
+  background-color: rgb(250, 244, 234);
+  position: relative;
+  top: -230px;
+  left: 220px;
+  border-radius: 30px;
+  box-shadow: 0px 3px 7px black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer .box {
+  width: 30%;
+  height: 80%;
+  padding: 20px;
+  border-right: 1px solid grey;
+}
+.footer .box p {
+  font-size: 12px;
+  margin-top: 10px;
+}
+.footer .box h3 {
+  font-size: 20px;
+  margin-top: -10px;
+}
+.footer .box i {
+  font-size: 30px;
+  background-color: #e5e5e5;
+  padding: 20px;
+  border-radius: 50%;
+  color: whitesmoke;
+  height: 74px;
+  position: relative;
+  bottom: 20px;
+  left: 10px;
+  color: #14746f;
+}
+
+.box:nth-child(3) {
+  border-right: none;
+}/*# sourceMappingURL=style.css.map */
